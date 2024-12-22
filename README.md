@@ -23,7 +23,7 @@ This PHP script is designed to synchronize database structures between two MySQL
    ```
 2. Navigate to the project directory:
    ```bash
-   cd DatabaseSyncTool
+   cd database-sync-tool
    ```
 3. Place the `dbsync.php` script on your web server or local PHP environment.
 
