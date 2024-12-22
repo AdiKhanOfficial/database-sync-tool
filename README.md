@@ -56,8 +56,8 @@ This PHP script is designed to synchronize database structures between two MySQL
 ## Example Output
 The script generates SQL queries like:
 ```sql
-ALTER TABLE `xgadgets_fonesurgeons`.`products` ADD COLUMN `wholesale_price` DECIMAL(10, 2) NULL;
-DROP TABLE `xgadgets_fonesurgeons`.`obsolete_table`;
+ALTER TABLE `DATABASE_NAME`.`TABLE_NAME` ADD COLUMN `COLUMN_NAME` DECIMAL(10, 2) NULL;
+DROP TABLE `DATABASE_NAME`.`TABLE_NAME`;
 ```
 
 ## Contributing
