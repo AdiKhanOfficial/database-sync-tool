@@ -19,7 +19,7 @@ This PHP script is designed to synchronize database structures between two MySQL
 ## Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/DatabaseSyncTool.git
+   git clone https://github.com/adikhanofficial/database-sync-tool.git
    ```
 2. Navigate to the project directory:
    ```bash
