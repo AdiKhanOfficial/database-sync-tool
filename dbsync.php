@@ -16,7 +16,7 @@ $conn1 = connectToDatabase(DB1_NAME, DB1_USER, DB1_PASSWORD);
 $conn2 = connectToDatabase(DB2_NAME, DB2_USER, DB2_PASSWORD);
 
 echo "Please run the following queries manually!";
-echo "<br><br><code style='padding: 10px;background: #202020;border-radius: 5px;color: white;'>";
+echo "<br><br><div style='padding: 10px;background: #202020;border-radius: 5px;color: white;'><code>";
 // Get the list of tables from both databases
 $tableListDb1 = fetchTableList($conn1);
 $tableListDb2 = fetchTableList($conn2);
@@ -24,7 +24,7 @@ $tableListDb2 = fetchTableList($conn2);
 // Synchronize table structures and columns
 synchronizeTables($tableListDb1, $tableListDb2, $conn1, $conn2);
 
-echo "</code>";
+echo "</code></div>";
 
 /**
  * Establishes a connection to a MySQL database.
